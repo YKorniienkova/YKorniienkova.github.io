@@ -1,0 +1,81 @@
+.topnav {
+      background-color: #333;
+      overflow: hidden;
+      }
+      img{
+  border-radius: 3%;
+}
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+    .topnav a:hover {
+        background-color:#63a3df;
+        color: black;
+     }
+     .clas1{
+      width: 200px; float: right;
+        
+    }
+     .clas1:hover{
+       transform: scale(3) translate(-80px);
+     }
+     .firs{
+       animation: blink 6s;
+       animation-iteration-count: 1;
+       color: #63a3df;;
+       font-family: Snell Roundhand, cursive;
+       font-style: italic;
+       text-align: center
+     }
+     @keyframes blink{
+       0%{color: rgba(255, 255, 255, 0.61);}
+    50% { color: rgb(70, 150, 255);}
+  
+     }
+     .div1{
+       width: 70%;
+     }
+     .div2{
+       width: 70%;
+       float: right;
+     }
+     .div4{
+         width: 70%;
+         float:right;
+        }
+        h2{
+       color: rgb(80, 170, 255);
+     } 
+     .im2{
+         width: 150px;
+         float: right;
+     }
+     .im2:hover{
+        transform: scale(4) translate(-80px);
+     }
+     img{
+         margin: 5px;
+     }
+     .im3{
+         width: 150px;
+         float: left;
+     }
+     .div3{
+         width: 70%;
+         float: left;
+     }
+       @media screen and (max-width: 500px){
+        .div1{
+            width: 100%}
+           .div2{
+            width: 100%}
+            .div3{
+            width: 100%}
+            .div4{
+            width: 100%}
+        }
